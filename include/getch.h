@@ -31,4 +31,3 @@ static int getch(void)
 }
 
 #endif//GETCH_H
-
