@@ -19,3 +19,6 @@
 
 #### 相关图片
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/0904/112726_86d250ff_5140590.png "屏幕截图.png")
+![进入用户管理](https://images.gitee.com/uploads/images/2019/0904/113055_fc3fc94b_5140590.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2019/0904/113158_df542e1b_5140590.png "屏幕截图.png")
+
