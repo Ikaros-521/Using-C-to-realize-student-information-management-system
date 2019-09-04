@@ -1,12 +1,12 @@
 # Using-C-to-realize-student-information-management-system
 学生信息管理系统
 
-# 使用说明
+#### 使用说明
 终端执行 make  编译
 
 终端执行 ./sims.bin 运行程序
 
-# 其他
+#### 其他
 超级管理员账号：admin 
 密码：admin
 
@@ -17,5 +17,5 @@
 #### 相关问题
 1.如果异常退出程序，请删除data中的数据文件重新创建
 
-# 相关图片
+#### 相关图片
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/0904/112726_86d250ff_5140590.png "屏幕截图.png")
