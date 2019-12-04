@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <getch.h>
+#include "getch.h"
 #include <stdbool.h>
 #include <string.h>
 #include <stdint.h>
