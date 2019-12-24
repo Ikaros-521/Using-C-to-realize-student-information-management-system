@@ -154,15 +154,16 @@ static void admin_menu(void)
 	{
 		system("clear");
 		pf("******用户信息管理******\n");
-		pf("1、增\n");
-		pf("2、删\n");
-		pf("3、改\n");
-		pf("4、查\n");
-		pf("5、排\n");
-		pf("6、显\n");
-		pf("7、撤\n");
+		pf("      1、增加用户\n");
+		pf("      2、删除用户\n");
+		pf("      3、修改用户\n");
+		pf("      4、查询用户\n");
+		pf("      5、排序用户\n");
+		pf("      6、显示用户\n");
+		pf("      7、撤回上级\n");
+		pf("**********************\n");
 		
-		switch(getch())
+		switch(get_cmd('1','7'))
 		{
 			case '1': admin_add(); break;
 			case '2': admin_del(); break;
