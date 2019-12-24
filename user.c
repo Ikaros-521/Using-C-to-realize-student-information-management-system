@@ -215,15 +215,16 @@ static void user_menu(void)
 	{
 		system("clear");
 		pf("******学生信息管理******\n");
-		pf("1、增\n");
-		pf("2、删\n");
-		pf("3、改\n");
-		pf("4、查\n");
-		pf("5、排\n");
-		pf("6、显\n");
-		pf("7、撤\n");
+		pf("    1、增加学生\n");
+		pf("    2、删除学生\n");
+		pf("    3、修改学生\n");
+		pf("    4、查询学生\n");
+		pf("    5、排序学生\n");
+		pf("    6、显示学生\n");
+		pf("    7、撤回上级\n");
+		pf("**********************\n");
 		
-		switch(getch())
+		switch(get_cmd('1','7'))
 		{
 			case '1': user_add(); break;
 			case '2': user_del(); break;
@@ -241,7 +242,7 @@ void user_start(void)
 
 	char user[20] = {};
 	char pass[20] = {};
-	pf("请输入帐号:");
+	pf("请输入帐号(姓名):");
 	get_str(user,20);
 	pf("请输入密码:");
 	get_str(pass,20);
